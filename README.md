@@ -1,0 +1,1 @@
+# NSKashi.github.io
