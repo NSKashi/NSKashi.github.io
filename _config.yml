@@ -1,70 +1,9 @@
-# Site Information
+# _config.yml
+
 title: Data Analytics Portfolio
 description: Showcasing my data analytics projects using Excel, Power BI, SQL, and Tableau.
+theme:  minimal-mistakes-jekyll 
 
-# Theme Settings
-theme: minimal-mistakes-jekyll
-minimal_mistakes_skin: "default" # Optional: Choose from "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
-
-# Additional Customizations
+# Additional customizations
 show_downloads: true
 show_excerpts: true
-
-# Site URL and Repository
-url: "https://username.github.io"  # Update with your GitHub Pages URL or custom domain
-baseurl: ""  # Leave empty if using the root URL
-repository: "username/my-data-portfolio"  # Update with your GitHub repository
-
-# Author Information
-author:
-  name: "Your Name"
-  avatar: "/assets/images/avatar.jpg"  # Path to your avatar image
-  bio: "I am a data analyst specializing in Excel, Power BI, SQL, and Tableau."
-  location: "Your Location"
-  email: "your.email@example.com"
-
-# Social Media Links
-social:
-  type: "Person"
-  name: "Your Name"
-  links:
-    - label: "GitHub"
-      icon: "fab fa-fw fa-github"
-      url: "https://github.com/username"
-    - label: "LinkedIn"
-      icon: "fab fa-fw fa-linkedin"
-      url: "https://linkedin.com/in/your-linkedin"
-    - label: "Twitter"
-      icon: "fab fa-fw fa-twitter"
-      url: "https://twitter.com/your_twitter_handle"
-
-# Footer Settings
-footer:
-  links:
-    - label: "GitHub"
-      icon: "fab fa-fw fa-github"
-      url: "https://github.com/username"
-    - label: "LinkedIn"
-      icon: "fab fa-fw fa-linkedin"
-      url: "https://linkedin.com/in/your-linkedin"
-    - label: "Twitter"
-      icon: "fab fa-fw fa-twitter"
-      url: "https://twitter.com/your_twitter_handle"
-
-# Plugins
-plugins:
-  - jekyll-paginate
-  - jekyll-sitemap
-  - jekyll-feed
-  - jekyll-gist
-  - jekyll-seo-tag
-
-# Pagination
-paginate: 5  # Number of posts per page
-paginate_path: "/page:num/"
-
-# Other Settings
-markdown: kramdown
-highlighter: rouge
-encoding: "utf-8"
-
