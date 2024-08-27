@@ -1,61 +1,50 @@
-url: https://nskashi.github.io
-baseurl: /agency-jekyll-theme/
+# Site settings
+title: "NIRBHAY SINGH KASHI"
+description: "Showcasing my data analytics projects"
+url: "https://NSKashi.github.io"
+baseurl: ""  # leave this blank if the site is at the root of the domain
 
+# Theme settings
+theme: "jekyll-agency"
 
-title: NIRBHAY SINGH KASHI
-email: your-nirbhaysinghkashi@gmail.com  
-description: "Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description."
+# Navigation 
+navigation:
+  - title: "Home"
+    url: "#page-top"
+  - title: "About"
+    url: "#about"
+  - title: "Projects"
+    url: "#portfolio"
+  - title: "Contact"
+    url: "#contact"
 
-
-people:
-- name: Kay Garland
-  pic: 1
-  position: Lead Designer
-  social:
-    - title: twitter
-      url: #
-    - title: facebook
-      url: #
-    - title: stack-overflow
-      url: #
-
-- name: Larry Parker
-  pic: 2
-  position: Lead Marketer
-  social:
-    - title: twitter
-      url: #
-    - title: facebook
-      url: #
-    - title: linkedin
-      url: #
-
-- name: Diana Petersen
-  pic: 3
-  position: Lead Developer
-  social:
-    - title: twitter
-      url: #
-    - title: facebook
-      url: #
-    - title: google-plus
-      url: #
-
+# Social Links
 social:
-  - title: twitter
-    url: http://twitter.com/jekyllrb
-  - title: facebook
-    url:
-  - title: stack-overflow
-    url: http://stackoverflow.com/questions/tagged/jekyll
-  - title: bitbucket 
-    url: http://bitbucket.org/jekyll
-  - title: github
-    url: http://github.com/jekyll
+  - name: GitHub
+    url: "https://github.com/username"
+  - name: LinkedIn
+    url: "https://linkedin.com/in/username"
+  - name: Twitter
+    url: "https://twitter.com/username"
 
-address:
-  - line: 3481 Melrose Place
-  - line: Beverly Hills, CA 90210
+# Google Analytics (Optional)
+google_analytics: "UA-XXXXXXXX-X"  # Replace with your tracking ID
 
+# Exclude from processing
+exclude:
+  - README.md
+
+# Markdown settings
 markdown: kramdown
-permalink: pretty
+kramdown:
+  input: GFM
+  hard_wrap: false
+
+# Plugins (Optional)
+plugins:
+  - jekyll-seo-tag
+  - jekyll-sitemap
+
+# Footer
+footer:
+  copyright: "© 2024 My Portfolio. All Rights Reserved."
