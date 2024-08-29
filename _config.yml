@@ -1,51 +1,7 @@
-# Site settings
 title: Data Analytics Portfolio
 description: Showcasing my data analytics projects using Excel, Power BI, SQL, and Tableau.
-baseurl: "" # The subpath of your site, e.g. /blog
-url: "https://nskashi.github.io" # The base hostname & protocol for your site
-
-# Theme settings
-theme: jekyll-theme-agency
-
-# Agency theme options
-header_title: "Data Analytics Portfolio"
-header_tagline: "Showcasing my data analytics projects"
-header_button_text: "Learn More"
-header_button_url: "#about" # Can be customized to link to any section or external page
-
-# Navigation
-nav_links:
-  - title: "About"
-    url: "#about"
-  - title: "Projects"
-    url: "#projects"
-  - title: "Contact"
-    url: "#contact"
-
-# Social links
-social_links:
-  - title: "GitHub"
-    url: "https://github.com/yourusername"
-    icon: "fab fa-github"
-  - title: "LinkedIn"
-    url: "https://linkedin.com/in/yourusername"
-    icon: "fab fa-linkedin"
-
-# Footer settings
-footer_copyright: "© 2024 Your Name. All Rights Reserved."
-footer_links:
-  - title: "Privacy Policy"
-    url: "/privacy-policy"
-  - title: "Terms of Use"
-    url: "/terms-of-use"
+theme: jekyll-theme-semantic-ui
 
 # Additional customizations
 show_downloads: true
 show_excerpts: true
-
-# Plugin settings
-plugins:
-  - jekyll-feed
-  - jekyll-seo-tag
-  - jekyll-sitemap
-
