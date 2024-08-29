@@ -1,8 +1,6 @@
-# _config.yml
-
 title: Data Analytics Portfolio
 description: Showcasing my data analytics projects using Excel, Power BI, SQL, and Tableau.
-theme: jekyll-theme-cayman
+theme: jekyll-theme-agency
 
 # Additional customizations
 show_downloads: true
