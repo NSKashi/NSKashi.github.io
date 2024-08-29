@@ -1,50 +1,9 @@
-# Site settings
-title: "NIRBHAY SINGH KASHI"
-description: "Showcasing my data analytics projects"
-url: "https://NSKashi.github.io"
-baseurl: ""  # leave this blank if the site is at the root of the domain
+# _config.yml
 
-# Theme settings
-theme: "jekyll-agency"
+title: Data Analytics Portfolio
+description: Showcasing my data analytics projects using Excel, Power BI, SQL, and Tableau.
+theme: jekyll-theme-cayman
 
-# Navigation 
-navigation:
-  - title: "Home"
-    url: "#page-top"
-  - title: "About"
-    url: "#about"
-  - title: "Projects"
-    url: "#portfolio"
-  - title: "Contact"
-    url: "#contact"
-
-# Social Links
-social:
-  - name: GitHub
-    url: "https://github.com/username"
-  - name: LinkedIn
-    url: "https://linkedin.com/in/username"
-  - name: Twitter
-    url: "https://twitter.com/username"
-
-# Google Analytics (Optional)
-google_analytics: "UA-XXXXXXXX-X"  # Replace with your tracking ID
-
-# Exclude from processing
-exclude:
-  - README.md
-
-# Markdown settings
-markdown: kramdown
-kramdown:
-  input: GFM
-  hard_wrap: false
-
-# Plugins (Optional)
-plugins:
-  - jekyll-seo-tag
-  - jekyll-sitemap
-
-# Footer
-footer:
-  copyright: "© 2024 My Portfolio. All Rights Reserved."
+# Additional customizations
+show_downloads: true
+show_excerpts: true
